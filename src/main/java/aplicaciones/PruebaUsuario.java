@@ -48,7 +48,7 @@ public class PruebaUsuario {
 		u.setApellidosUsuario("Moreno");
 		u.setEmail("privado@gmail.com");
 		u.setDirUsuario("mi casa");
-		cu.insertUser(u);// Si está creado lanzará una excepción
+		cu.insertUser(u);// Si está creado lanzará una excepcións
 
 //		Volvemos a captar todos los datos
 		usuarios = recogerDatosUsuario();
